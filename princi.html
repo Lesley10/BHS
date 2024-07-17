@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+     href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+<body>
+    
+    <section id="header">
+        <h2>Bridge End High School</h2>
+    
+        <div id="navbar">
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                        <div class="dropdown">
+                            <p class="dropbtn">About</p>
+                            <div class="dropdown-content">
+                              <a href="">Brigde-end International School</a>
+                              <a href="#">Educational programs</a>
+                              <a href="gb.html" class="active">Governing Board</a>
+                            </div>
+                          </div>
+                </li>
+                <li>
+                    <a href="admission.html">Admission</a>
+                </li>
+                <li>
+                    <a href="infra.html">Infrastructures</a>
+                </li>
+                <li>
+                    <a href="#">Reviews</a>
+                </li>
+                
+            
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+        <section id="BHS">
+
+            <div id="h">
+                <h1>Meet our Principal</h1>
+                
+            </div>
+        
+           <div id="bhstext">
+            <span>
+                <p> 
+                    Welcome to Bridge-End High School.
+
+                    As the Principal of Bridge-End High School, it is my pleasure to welcome you to our vibrant educational community. <br> I am Mrs Nsor, Jennifer and I bring about 20 years of experience in educational leadership from top junior and high schools in Lagos, Abuja and Port harcourt, with a deep passion for nurturing young minds. <br> My academic journey includes being a current Ph.d student and a Masters degree holder in Education Administration both from the prestigious University of Calabar and other numerous accolades for innovative and contemporary teaching practices and school administration. My commitment is to foster an environment where every learner can achieve their fullest potentials independently and responsibly.
+                    
+                    <br> Bridge-End High School, established on September 14, 2018, has grown into one of the leading secondary school institutions in Calabar and Nigeria at large, known for its academic excellence and holistic approach to education. Our school offers a rich blend of the Nigerian/British curriculum and looks forward to including  international programs, preparing learners for global opportunities. We are proud of our diverse learner body and our team of dedicated educators who are committed to guiding our learners to success.
+                    
+                   <br> What sets Bridge-End High School apart from other institutions is our unwavering commitment to excellence and innovation.  Our state-of-the-art facilities, include advanced science laboratories, a laptop lab, visual art studio, modern technical drawing and Home Economics lab, provide learners with unparalleled learning opportunities. We integrate cutting-edge technology into our teaching methods and offer extensive extracurricular programs to ensure the all-around development of our young learners.
+                    
+                    Parents choose Bridge-End High School because we prioritize each learner's individual growth, both academically and personally. Our small class sizes ensure personalized attention, and our comprehensive support services cater to the diverse needs of our learners. We look forward to offering robust preparation for international examinations such as IGCSE, SAT, and TOEFL, ensuring our learners are competitive on a global scale. Our inclusive and nurturing environment promotes a strong sense of community and belonging, making Bridge-End High School a second home for our learners.
+                    
+                    Dear prospective students,
+                    
+                    I am delighted that you are considering Bridge-End High School for your educational journey. Our school is a place where your dreams can take flight. Here, you will find a supportive community of professionally qualified, TRCN Certified and dedicated Educators, and an array of opportunities to explore your interests and talents. At Bridge-End, we believe in the power of education to transform lives, and we are committed to helping you achieve your highest aspirations. We look forward to welcoming you to the Bhs family and supporting you every step of the way.Welcome to your bridge to a bright future.
+                    
+                    Warm regards, <br>
+                    
+                    <div>
+                        <span>
+                            Mrs J. Nsor. <br>
+                            Principal, Bridge-End High School, Calabar, CRS.
+                        </span>
+                    </div>
+                    
+                </p>
+            </span>
+           </div>
+        </section>
+
+        <script>
+            const bar = document.getElementById('bar');
+        const close = document.getElementById('close');
+        const nav = document.getElementById('navbar');
+        
+        if (bar) {
+        bar.addEventListener('click' , () => {
+            nav.classList.add('active')
+        })
+        }
+        
+        if (close) {
+        close.addEventListener('click' , () => {
+            nav.classList.remove('active')
+        })
+        }
+        </script>
+</body>
+</html>

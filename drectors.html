@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+<body>
+
+    <section id="header">
+        <h2>Bridge End High School</h2>
+        <div id="navbar">
+            <ul>
+                <li>
+                 <a href="./home.html">
+                    Home
+                </a>
+                </li>
+                <li>
+                        <div class="dropdown">
+                            <p class="dropbtn">About</p>
+                            <div class="dropdown-content">
+                              <a href="BHS.html">Brigde-end International School</a>
+                              <a href="BIS.html">Educational programs</a>
+                              <a href="gb.html">Governing Board</a>
+                            </div>
+                          </div>
+                </li>
+                <li>
+                    <a href="admission.html">Admission</a>
+                </li>
+                <li>
+                    <a href="infra.html">Infrastructures</a>
+                </li>
+                <li>
+                    <a href="#">Reviews</a>
+                </li>
+                
+            
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        
+    </section>
+
+    <section id="BHS">
+
+        <div id="h">
+            <h1>Meet The Director:</h1>
+        </div>
+    
+       <div id="bhstext">
+        <span>
+         <p>
+            Dr (Mrs.) Margaret Ndoma-Egba holds a B.ED Science Education (Hons) Degree and a M.Ed. degree in Management and Administration of schools from the University of Bristol, UK 1983-1985 respectively. She also holds a Ph.D. in Educational Administration and planning from the University of Calabar, Calabar, Nigeria (1996). She equally holds an international Montessori Teaching Diploma from the North American Montessori Center, Vancouver, Canada (2000) she is also an Alumnus of the center for Development and Population Activities (CEDPA), Washington DC, USA (1993).
+            As a seasoned educationist, she is very well vested in educational issues and quite experienced in school administration and management. Being a professional in her field, she handles issues with an in-depth understanding and absolutely on top of the game.
+            She worked with the University of Calabar from 1986 to 2001 rising by the ranks from Administrative Officer to Principal Assist Registrar when she voluntarily retired from the university to go into private practice. Thus, she opened first the Bridge-End Tutorial College, (2000), then the Bridge-End International Nursery and Primary School (2001) and Bridge-End High school (2018).
+            An institute businesswoman, she joined the Nigerian chamber and commerce, industry, mines and agriculture in the early 2000s. By 2011-2013 she served as the president Calabar Chamber of Commerce and Industry (CALCIMA). In 2013, she became the pioneer president of Cross River State organized private sector (OPS) made up of the following organizations MAN, NASME, NACCIMA, NASSI. In 2013 she was coopted into the National Executive council of NACCIMA. By 2017 she was elected a National Vice President of NACCIMA and was the only lady vice president. A position she held till 2023. She still remains a member of the National Executive council of NACCIMA till date.
+           <br>
+           <span>
+            <h4>
+                APPOINTMENTS:
+            </h4>
+           </span> <br>
+            <div id="d-p">
+                1.	Appointed by the Cross-River State Government under Governor Clement Ebri as a member of the advisory council of the Cross-River State Women Commission (1993). <br>
+                2.	Appointed by the Cross-River State government under Governor Donald Duke as chairperson working committee on child labor exploitation in Cross-River State (2000). <br>
+                
+                3.	Member, University Convocation Committee (2001) <br>
+                
+                4.	Member, and secretary, senate committee on minimum Academic Standards (2001). <br>
+                
+               <br>
+               <span>
+                <h4>
+                    AWARDS:
+                </h4>
+               </span>
+                 <br>
+                1.	Africa Outstanding Leadership Award by Global Skills Hub, United Kingdom, (2023) <br> 
+                2.	Best Safety Compliance Award by Cross River State Safety Commission, (2022) <br>
+                3.	Education Service Performance Award by The National Association of Proprietors of Private School, Calabar Municipality, Cross River State  <br>
+                4.	Certificate of Listing among Nigerian Women Annual 100 Leading Women. <br>
+                5.	Award of Honor by University Student Union Government, University of Calabar, (2002). <br>
+                6.	Educational leadership Award by the institute or industrial Administration (2006). <br>
+                7.	Fellow of industrial Administration (2006). <br>
+                8.	Bridge-End school <br>
+            </div> 
+        </p>
+     </span>
+
+   
+
+
+<script>
+    const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
+
+if (bar) {
+bar.addEventListener('click' , () => {
+    nav.classList.add('active')
+})
+}
+
+if (close) {
+close.addEventListener('click' , () => {
+    nav.classList.remove('active')
+})
+}
+</script>
+</body>
+</html>
